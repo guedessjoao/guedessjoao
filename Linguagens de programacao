@@ -1,0 +1,107 @@
+Propósito:
+
+Python:
+
+Propósito geral.
+Ênfase em legibilidade e simplicidade.
+Ampla gama de aplicações, incluindo desenvolvimento web, automação, ciência de dados e aprendizado de máquina.
+JavaScript:
+
+Principalmente usado para desenvolvimento web.
+Executado nos navegadores para criar páginas interativas.
+Também utilizado no lado do servidor com Node.js.
+C:
+
+Propósito geral.
+Conhecida por seu desempenho eficiente.
+Amplamente utilizada em sistemas operacionais, desenvolvimento de sistemas embarcados e software de baixo nível.
+Sintaxe e Estrutura:
+
+Python:
+
+Sintaxe clara e legível.
+Uso significativo de indentação para delimitar blocos de código.
+JavaScript:
+
+Sintaxe semelhante a C e Java.
+Linguagem baseada em protótipos para orientação a objetos.
+C:
+
+Sintaxe procedural e estruturada.
+Requer a declaração explícita de variáveis e tipos de dados.
+Tipagem:
+
+Python:
+
+Dinamicamente tipada.
+Inferência de tipo em tempo de execução.
+JavaScript:
+
+Fracamente tipada.
+Tipagem dinâmica.
+C:
+
+Fortemente tipada.
+Tipagem estática, exigindo declaração explícita de tipos.
+Ambiente de Execução:
+
+Python:
+
+Interpretada, mas pode ser compilada para bytecode.
+Amplamente utilizado em ambientes de script e para desenvolvimento rápido.
+JavaScript:
+
+Interpretação nos navegadores.
+No lado do servidor, pode ser executado no ambiente Node.js.
+C:
+
+Compilada antes da execução.
+Utilizada para criar software de sistema e aplicações de baixo nível.
+Gerenciamento de Memória:
+
+Python:
+
+Gerenciamento automático de memória (coleta de lixo).
+JavaScript:
+
+Coleta de lixo automática no navegador (no ambiente Node.js, utiliza V8 Engine com coleta de lixo).
+C:
+
+Necessita de gerenciamento manual de memória.
+Mais controle direto sobre alocação e desalocação de memória.
+
+Codigo Python:
+limite = 100
+    for c in range(0, limite+1):
+        if c % 2 == 0:
+            print(c)
+Codigo Javascript:
+let i,a= 200;
+let num= 0;
+ console.log("Todos os numeros pares")
+for (i=0;i<=a;i++)
+{
+  if(i%2 == 0)
+  {
+   console.log(i);
+  
+  }
+  }
+Codigo C:
+#include <stdio.h>
+
+int main() {
+  int i; //declara i
+
+  for (i = 0; i < 100+1; i++) { //para cada valor de i de 0 até 100, com i aumentando de 1 em 1
+    if(i % 2 != 0) //se o numero for par mostra na tela, se nao for, nao mostra
+        continue; 
+    printf("%d\n", i);
+      
+  }
+
+}
+
+Linguagens de programação são conjuntos de regras e convenções utilizadas para criar programas de computador.
+Cada linguagem tem sua sintaxe e semântica específicas, definindo como as instruções devem ser escritas e interpretadas.
+Os códigos são manifestações dessas linguagens, expressando algoritmos e lógica de programação para realizar tarefas específicas.

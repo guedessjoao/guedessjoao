@@ -1,0 +1,25 @@
+1. def soma (a,b):
+    return a + b
+
+
+def quadrado (a):
+    return a**2
+
+def hipotenusa (cat1, cat2):
+    return soma(quadrado(cat1), quadrado(cat2)) ** (1/2)
+
+h =  hipotenusa (3,5)
+
+def simples (cor):
+    if cor == 'azul':
+        return 'escolheu certo'
+    
+def medio (cor):
+    if cor == 'azul':
+        return 'escolheu certo'
+    else:
+        return 'tente outra cor'
+2. Função para desenhar um triângulo de asteriscos com o número de linhas informado como parâmetro
+def desenhar_triangulo(n):
+    for i in range(1, n + 1):
+        print('*' * i)
